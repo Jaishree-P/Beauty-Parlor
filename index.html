@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sony Beauty Parlor - Your Beauty Destination</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Sony Beauty Parlor</h1>
+                <p>Where beauty meets perfection</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#stylists">Stylists</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#packages">Packages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#booking" >Book Now</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Enhance Your Natural Beauty</h2>
+                    <p>Professional beauty services tailored to your needs</p>
+                    <a href="#booking" class="btn">Book an Appointment</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-cut"></i>
+                        <h3>Hair Styling</h3>
+                        <p>Professional haircuts, coloring, and treatments</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-spa"></i>
+                        <h3>Facials</h3>
+                        <p>Revitalizing facials for all skin types</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-hand-sparkles"></i>
+                        <h3>Manicure & Pedicure</h3>
+                        <p>Luxurious nail care services</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-brush"></i>
+                        <h3>Makeup</h3>
+                        <p>Professional makeup for all occasions</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-fire"></i>
+                        <h3>Waxing</h3>
+                        <p>Full body waxing services</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <h3>More Services</h3>
+                        <p>Threading, henna, bridal packages, and more</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stylists" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Our Expert Stylists</h2>
+                <div class="stylists-grid">
+                    <div class="stylist-card">
+                        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Stylist">
+                        <h3>Sony Sharma</h3>
+                        <p class="specialty">Beautician</p>
+                        <p>10+ years of experience in hair coloring and styling</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <style>
+            .gallery-grid {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+        
+            .gallery-item {
+                width: 220px;
+                height: 280px;
+                overflow: hidden;
+                text-align: center;
+                border-radius: 10px;
+            }
+        
+            .gallery-item img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        </style>
+        
+        <style>
+            .gallery-box {
+                border: 3px solid #f39d120e;
+                padding: 20px;
+                border-radius: 15px;
+                background-color: #fff8f0;
+                max-width: 1000px;
+                margin: 0 auto;
+                text-align: center;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                margin-bottom: 10px; /* Added: Reduces gap between sections */
+            }
+        
+            .gallery-box h2 {
+                font-size: 24px;
+                color: #0b0700;
+                margin-bottom: 15px; /* Added: Reduces gap between heading and images */
+            }
+        
+            .gallery-grid {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 10px; /* Added: Reduces gap between images */
+            }
+        
+            .gallery-item {
+                width: 220px;
+                height: 280px;
+                overflow: hidden;
+                text-align: center;
+                border-radius: 10px;
+            }
+        
+            .gallery-item img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        </style>
+        
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2 class="section-title">Makeover Magic</h2>
+                <div class="gallery-box">
+                    <h2>Mehandi</h2>
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="hand mehandi.jpg" alt="Hand Mehandi">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="hand mehandi 2.jpeg" alt="Hand Mehandi Design">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="Screenshot 2025-04-17 122151.png" alt="Mehandi Art">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="leg mehandi.jpg" alt="Leg Mehandi">
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-box">
+                    <h2>Hair Makeover</h2>
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="Hair style 1.png" alt="Hand Mehandi">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="Hair style 2.png" alt="Hand Mehandi Design">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="Hair style 3.png" alt="Mehandi Art">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="Hair style 4.png" alt="Leg Mehandi">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="Hair style 5.png" alt="Leg Mehandi">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="Hair style 6.png" alt="Leg Mehandi">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="Hair style 7.png" alt="Leg Mehandi">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="Hair style 8.png" alt="Leg Mehandi">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+
+        <section id="packages" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Our Packages</h2>
+                <div class="filter-options">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="bridal">Bridal</button>
+                    <button class="filter-btn" data-filter="makeup">Makeup</button>
+                    <button class="filter-btn" data-filter="hair">Hair</button>
+                    <button class="filter-btn" data-filter="spa">Spa</button>
+                </div>
+                <div class="packages-grid">
+                    <div class="package-card" data-category="bridal">
+                        <h3>Complete Bridal Package</h3>
+                        <p class="price">₹25,000</p>
+                        <ul>
+                            <li>Bridal Makeup</li>
+                            <li>Hair Styling</li>
+                            <li>Mehendi Application</li>
+                            <li>Pre-bridal Facials (3 sessions)</li>
+                        </ul>
+                        <button class="btn customize-btn">Customize</button>
+                    </div>
+                    <div class="package-card" data-category="makeup">
+                        <h3>Party Makeup</h3>
+                        <p class="price">₹3,500</p>
+                        <ul>
+                            <li>Full Face Makeup</li>
+                            <li>Eye Makeup</li>
+                            <li>Contouring</li>
+                            <li>Lipstick</li>
+                        </ul>
+                        <button class="btn customize-btn">Customize</button>
+                    </div>
+                    <div class="package-card" data-category="hair">
+                        <h3>Hair Spa Package</h3>
+                        <p class="price">₹2,500</p>
+                        <ul>
+                            <li>Hair Wash</li>
+                            <li>Deep Conditioning</li>
+                            <li>Scalp Massage</li>
+                            <li>Hair Mask</li>
+                        </ul>
+                        <button class="btn customize-btn">Customize</button>
+                    </div>
+                    <div class="package-card" data-category="spa">
+                        <h3>Full Body Spa</h3>
+                        <p class="price">₹4,500</p>
+                        <ul>
+                            <li>Body Scrub</li>
+                            <li>Body Massage</li>
+                            <li>Steam Bath</li>
+                            <li>Face Mask</li>
+                        </ul>
+                        <button class="btn customize-btn">Customize</button>
+                    </div>
+                    <div class="package-card" data-category="bridal">
+                        <h3>Engagement Package</h3>
+                        <p class="price">₹12,000</p>
+                        <ul>
+                            <li>Makeup</li>
+                            <li>Hair Styling</li>
+                            <li>Hand Henna</li>
+                            <li>Manicure & Pedicure</li>
+                        </ul>
+                        <button class="btn customize-btn">Customize</button>
+                    </div>
+                    <div class="package-card" data-category="makeup">
+                        <h3>Basic Makeup</h3>
+                        <p class="price">₹2,000</p>
+                        <ul>
+                            <li>Foundation</li>
+                            <li>Eye Makeup</li>
+                            <li>Lipstick</li>
+                            <li>Blush</li>
+                        </ul>
+                        <button class="btn customize-btn">Customize</button>
+                    </div>
+                </div>
+                <div class="customization-modal">
+                    <div class="modal-content">
+                        <span class="close-modal">&times;</span>
+                        <h3>Customize Your Package</h3>
+                        <div class="package-details">
+                            <h4 id="package-name">Package Name</h4>
+                            <p id="package-base-price">Base Price: ₹0</p>
+                            <div class="custom-options">
+                                <!-- Options will be added dynamically -->
+                            </div>
+                            <div class="total-price">
+                                <p>Total: <span id="package-total-price">₹0</span></p>
+                            </div>
+                            <button class="btn book-now-btn">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div style="display: flex; justify-content: center; align-items: center; height: 50vh; text-align: center; flex-direction: column;">
+                            <h3>Get in Touch</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> 40B, 6th Cross Rd, near SEA ICSE School gate,</p><p> Muneshwara layout, Ayyappa Nagar, Krishnarajapuram,</p> Bengaluru, Karnataka 560036</p>
+                            <p><i class="fas fa-phone"></i> +91 6362131978 </p>
+                            <p><i class="fas fa-envelope"></i> info@sonybeautyparlor.com</p>
+                            <p><i class="fas fa-clock"></i> Open : Mon - Fri 10:00 AM - 8:30 PM</p>
+                            <p><i class="fas fa-clock"></i> Open : Sat & Sun 11:00 AM - 8:00 PM</p>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="location" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Our Location</h2>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.263528897139!2d72.83286431490096!3d19.05743998710247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c91d7ffbbf0d%3A0x6de75142cec26203!2sTaj%20Mahal%20Palace%2C%20Mumbai!5e0!3m2!1sen!2sin!4v1623346789019!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="booking" class="section">
+            <div class="container">
+                <h2 class="section-title">Book an Appointment</h2>
+                <div class="booking-form">
+                    <form id="appointmentForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="date">Appointment Date</label>
+                                <input type="date" id="date" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="service">Service</label>
+                                <select id="service" required>
+                                    <option value="">Select a Service</option>
+                                    <option value="hair">Hair Styling</option>
+                                    <option value="makeup">Makeup</option>
+                                    <option value="facial">Facial</option>
+                                    <option value="waxing">Waxing</option>
+                                    <option value="manicure">Manicure/Pedicure</option>
+                                    <option value="bridal">Bridal Package</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="stylist">Preferred Stylist (Optional)</label>
+                                <select id="stylist">
+                                    <option value="">No Preference</option>
+                                    <option value="sony">Sony Sharma</option>
+                                    <option value="priya">Priya Patel</option>
+                                    <option value="anjali">Anjali Mehta</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="notes">Special Requests</label>
+                            <textarea id="notes"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Book Appointment</button>
+                    </form>
+                    <div class="booking-confirmation">
+                        <h3>Thank you for your booking!</h3>
+                        <p>We'll contact you shortly to confirm your appointment.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sony Beauty Parlor</h3>
+                    <p>Your one-stop destination for all beauty needs. Professional services with a personal touch.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#stylists">Stylists</a></li>
+                        <li><a href="#packages">Packages</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Opening Hours</h3>
+                    <p>Monday - Saturday: 9:00 AM - 8:00 PM</p>
+                    <p>Sunday: Closed</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Sony Beauty Parlor. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
