@@ -612,7 +612,7 @@ nav ul li a.active::after {
 .map-container {
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: var(--shadow);
+  
 }
 
 /* Booking Section */
@@ -622,7 +622,7 @@ nav ul li a.active::after {
   background-color: var(--white);
   padding: 40px;
   border-radius: 10px;
-  box-shadow: var(--shadow);
+  
 }
 
 .booking-confirmation {
